@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* ---------------- */
+
+header {
+  margin-top: 3 0px;
+  /* margin-right: 200px; */
+}
+
+.logo{
+  display: flex;
+}
+
+.icon-logo{
+     height: 50px;
+    width: 50px;
+}
+
+.htql{
+
+    text-align: center;
+
+    margin: 10px;
+
+    color: rgb(0, 0, 161);
+
+}
+
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-table tr td{
+  margin: 10px;
+}
+.product-table th {
+  background-color: rgb(248, 246, 246);
+}
+
+.product-table .img {
+ width: 10px;
+}
+
+.product-table button {
+  padding: 5px 5px;
+ 
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 5px 20px;
+}
+
+.product-table button:hover {
+  background-color: #0056b3;
+}
+
+h4{
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+.Dssp{
+  background-color: #f7f4f4;
+  border-radius: 8px;
+}
+
+.logo{
+      margin-top: 30px;
+}
+
+.header-table button{
+  background-color: rgb(247, 171, 30);
+}
+
+/* mesage thông báo */ 
+.success-message {
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  opacity: 0.9;
+  animation: fadeOut 2s ease-in-out;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
